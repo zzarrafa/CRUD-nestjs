@@ -72,7 +72,7 @@ async signToken(userId: number,email: string,): Promise<{ access_token: string }
         secret: secret,
       },
     );
-
+      
     return {
       access_token: token,
     };
